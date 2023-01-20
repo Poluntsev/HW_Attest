@@ -18,12 +18,14 @@ public class RoadSituation {
 
         bus.DriveOn();
         cargoPassengerCar.DriveOn();
-        passengerCar.DriveOn();
+        passengerCar.DriveOn(100, 1500);
         specialTransport.DriveOn();
         truck.DriveOn();
 
         System.out.println("All cars in motion");
 
 
+
     }
 }
+

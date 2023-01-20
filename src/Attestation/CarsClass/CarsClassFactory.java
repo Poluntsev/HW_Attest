@@ -15,7 +15,7 @@ public class CarsClassFactory implements CarFactory {
 
     @Override
     public PassengerCar getPCar() {
-        return new MersedesBenz();
+        return new MercedesBenz();
     }
 
     @Override

@@ -1,7 +1,7 @@
 package Attestation.Cars;
 
 public interface PassengerCar {
-    void DriveOn();
+    void DriveOn(double distance, double fuelInTank);
     void DriveOf();
-    void GetFuel();
+    void getFuel(int fuelV);
 }
