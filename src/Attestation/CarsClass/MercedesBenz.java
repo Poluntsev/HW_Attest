@@ -17,7 +17,12 @@ public class MercedesBenz implements PassengerCar {
 
         while (fuel>0) {
             System.out.println("Fuel in tank: " + fuel);
-            fuel = fuel - distance/100 *fuelConsumption;
+            fuel = fuel - (distance/100) * fuelConsumption;
+
+            if (fuel<100) {
+                System.out.println("Fuel is about to run out, gotta refuel");
+                break;
+            }
         }
     }
 
